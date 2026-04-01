@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inclusive Support Services – Person-centred Disability Support</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===================== HEADER / NAV ===================== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- Logo -->
+      <a href="#" class="logo" aria-label="Inclusive Support Services home">
+        <div class="logo-icon" aria-hidden="true">
+          <svg viewBox="0 0 40 40" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="20,4 36,32 4,32" fill="#2a7a4f"/>
+            <polygon points="20,12 30,28 10,28" fill="#fff" opacity="0.4"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-line1">Inclusive</span>
+          <span class="logo-line2">Support Services</span>
+        </div>
+      </a>
+
+      <!-- Primary Nav -->
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li class="has-dropdown">
+            <a href="#">Services <span class="chevron">▾</span></a>
+            <ul class="dropdown">
+              <li><a href="#">Daily Living Support</a></li>
+              <li><a href="#">Community Participation</a></li>
+              <li><a href="#">Supported Independent Living</a></li>
+              <li><a href="#">Transport &amp; Access</a></li>
+            </ul>
+          </li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- CTA buttons -->
+      <div class="header-ctas">
+        <a href="tel:1800123456" class="btn btn-outline">Call 1800 123 456</a>
+        <a href="#contact" class="btn btn-primary">Get in touch</a>
+      </div>
+
+      <!-- Mobile hamburger -->
+      <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile nav drawer -->
+    <nav class="mobile-nav" id="mobileNav" aria-hidden="true">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="tel:1800123456" class="btn btn-outline">Call 1800 123 456</a></li>
+        <li><a href="#contact" class="btn btn-primary">Get in touch</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" aria-label="Hero banner">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="hero-eyebrow">Person-centred disability support</p>
+          <h1>Compassionate, professional support that empowers your choice and independence.</h1>
+          <p class="hero-body">We provide tailored disability support services for participants, families and carers—focused on quality, respect and real outcomes.</p>
+          <div class="hero-actions">
+            <a href="#services" class="btn btn-primary">Explore Our Services</a>
+            <a href="#contact" class="btn btn-secondary">Contact Us</a>
+          </div>
+        </div>
+        <div class="hero-image" aria-label="Support worker smiling and chatting with a participant outdoors.">
+          <!-- Placeholder image with gradient background matching photo mood -->
+          <div class="hero-img-placeholder" role="img" aria-label="Support worker smiling and chatting with a participant outdoors.">
+            <img src="https://images.unsplash.com/photo-1573497019236-17f8177b81e8?w=700&q=80" alt="Support worker smiling and chatting with a participant outdoors." loading="eager" />
+            <div class="hero-img-caption">Alt: Support worker smiling and chatting with a participant outdoors.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SERVICES ===================== -->
+    <section class="services-section" id="services" aria-labelledby="services-heading">
+      <div class="container">
+        <p class="section-label">SERVICES</p>
+        <h2 id="services-heading">How we can support you</h2>
+        <p class="section-sub">Clear information about each support we offer, with photos and short explainer videos.</p>
+
+        <div class="services-grid">
+
+          <!-- Card 1 -->
+          <article class="service-card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=500&q=70" alt="Support worker assisting a participant with a daily living activity at home." loading="lazy" />
+              <div class="img-caption">Alt: Support worker assisting a participant with a daily living activity at home.</div>
+            </div>
+            <div class="card-body">
+              <h3>Daily Living Support</h3>
+              <p>Help with everyday tasks to build skills and confidence—personal care, meal preparation, routines and life skills.</p>
+            </div>
+            <div class="card-video">
+              <div class="video-thumb" aria-label="Play video: What is Daily Living Support?">
+                <div class="play-btn" aria-hidden="true">▶</div>
+                <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&q=60" alt="" loading="lazy" />
+              </div>
+              <p class="video-label">Video: What is Daily Living Support?</p>
+            </div>
+            <a href="#" class="card-learn-more">Learn more <span aria-hidden="true">→</span></a>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="service-card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=500&q=70" alt="Two people enjoying a community outing together." loading="lazy" />
+              <div class="img-caption">Alt: Two people enjoying a community outing together.</div>
+            </div>
+            <div class="card-body">
+              <h3>Community Participation</h3>
+              <p>We support you to get out and about, connect with others and take part in social, recreational and community activities.</p>
+            </div>
+            <div class="card-video">
+              <div class="video-thumb" aria-label="Play video: Community Participation">
+                <div class="play-btn" aria-hidden="true">▶</div>
+                <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&q=60" alt="" loading="lazy" />
+              </div>
+              <p class="video-label">Video: Community Participation</p>
+            </div>
+            <a href="#" class="card-learn-more">Learn more <span aria-hidden="true">→</span></a>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="service-card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=500&q=70" alt="Support worker and participant planning goals together." loading="lazy" />
+              <div class="img-caption">Alt: Support worker and participant planning goals together.</div>
+            </div>
+            <div class="card-body">
+              <h3>Supported Independent Living (SIL)</h3>
+              <p>24/7 or shared living arrangements with the right support to increase independence and choice.</p>
+            </div>
+            <div class="card-video">
+              <div class="video-thumb" aria-label="Play video: How SIL Support Works">
+                <div class="play-btn" aria-hidden="true">▶</div>
+                <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=400&q=60" alt="" loading="lazy" />
+              </div>
+              <p class="video-label">Video: How SIL Support Works</p>
+            </div>
+            <a href="#" class="card-learn-more">Learn more <span aria-hidden="true">→</span></a>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="service-card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=500&q=70" alt="Support worker assisting a participant into an accessible transport vehicle." loading="lazy" />
+              <div class="img-caption">Alt: Support worker assisting a participant into an accessible transport vehicle.</div>
+            </div>
+            <div class="card-body">
+              <h3>Transport &amp; Access</h3>
+              <p>Reliable, accessible transport to appointments, work, study and community activities.</p>
+            </div>
+            <div class="card-video">
+              <div class="video-thumb" aria-label="Play video: Transport and Access Support">
+                <div class="play-btn" aria-hidden="true">▶</div>
+                <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&q=60" alt="" loading="lazy" />
+              </div>
+              <p class="video-label">Video: Transport &amp; Access Support</p>
+            </div>
+            <a href="#" class="card-learn-more">Learn more <span aria-hidden="true">→</span></a>
+          </article>
+
+        </div>
+
+        <!-- NDIS banner -->
+        <div class="ndis-banner" role="note">
+          <span class="ndis-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="10" stroke="#2a7a4f" stroke-width="2"/>
+              <path d="M12 7v5l3 3" stroke="#2a7a4f" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </span>
+          We work with plan-managed, self-managed and NDIA-managed participants.
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ACCESSIBILITY ===================== -->
+    <section class="accessibility-section" aria-labelledby="a11y-heading">
+      <div class="container a11y-inner">
+        <div class="a11y-left">
+          <div class="a11y-icon-wrap" aria-hidden="true">
+            <svg viewBox="0 0 60 60" width="48" height="48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="30" cy="30" r="28" stroke="#2a7a4f" stroke-width="3"/>
+              <circle cx="30" cy="14" r="5" fill="#2a7a4f"/>
+              <path d="M20 24h20M30 24v14M22 44l8-6 8 6" stroke="#2a7a4f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div>
+            <h2 id="a11y-heading">Accessibility is a priority</h2>
+            <p>Our website is designed to be usable by everyone, including people who rely on screen readers or keyboard navigation.</p>
+            <ul class="a11y-list">
+              <li><span class="check-icon" aria-hidden="true">✓</span> WCAG 2.1 AA compliant contrast and heading structure</li>
+              <li><span class="check-icon" aria-hidden="true">✓</span> Full keyboard navigation and visible focus states</li>
+              <li><span class="check-icon" aria-hidden="true">✓</span> Alt-text for all images and video captions</li>
+              <li><span class="check-icon" aria-hidden="true">✓</span> Clear, plain language</li>
+            </ul>
+          </div>
+        </div>
+        <div class="a11y-right">
+          <div class="alt-format-box">
+            <h3>Need this information in another format?</h3>
+            <p>We're happy to help. Contact us for easy read, large print, audio or translated information.</p>
+            <p class="alt-phone"><span aria-hidden="true">📞</span> 1800 123 456</p>
+            <p class="alt-email"><span aria-hidden="true">✉</span> hello@inclusivesupport.au</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT + VALUES + CONTACT ===================== -->
+    <section class="about-section" aria-labelledby="about-heading">
+      <div class="container about-inner">
+
+        <!-- About -->
+        <div class="about-col">
+          <h2 id="about-heading">About Inclusive Support Services</h2>
+          <p>We are a local disability support provider committed to person-centred care, inclusion and building independence. Our qualified, compassionate team works alongside participants, families and carers to deliver flexible support that fits your goals and lifestyle.</p>
+          <a href="#" class="btn btn-read-more">Read more about us</a>
+        </div>
+
+        <!-- Values -->
+        <div class="values-col">
+          <h2>Our values</h2>
+          <ul class="values-list">
+            <li>
+              <div class="value-icon respect" aria-hidden="true">🤝</div>
+              <div>
+                <strong>Respect &amp; Dignity</strong>
+                <p>We value you, your choices and your voice.</p>
+              </div>
+            </li>
+            <li>
+              <div class="value-icon inclusion" aria-hidden="true">🤗</div>
+              <div>
+                <strong>Inclusion</strong>
+                <p>Everyone is welcome and supported to belong.</p>
+              </div>
+            </li>
+            <li>
+              <div class="value-icon quality" aria-hidden="true">🎯</div>
+              <div>
+                <strong>Quality &amp; Outcomes</strong>
+                <p>We focus on what matters and celebrate progress.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Contact form -->
+        <div class="contact-col" id="contact">
+          <h2>Contact us</h2>
+          <div class="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name" class="sr-only">Your name</label>
+                <input type="text" id="name" name="name" placeholder="Your name*" autocomplete="name" />
+              </div>
+              <div class="form-group">
+                <label for="email" class="sr-only">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email*" autocomplete="email" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="phone" class="sr-only">Phone</label>
+              <input type="tel" id="phone" name="phone" placeholder="Phone" autocomplete="tel" />
+            </div>
+            <div class="form-group">
+              <label for="message" class="sr-only">How can we help?</label>
+              <textarea id="message" name="message" rows="4" placeholder="How can we help?"></textarea>
+            </div>
+            <div class="form-group form-checkbox">
+              <input type="checkbox" id="consent" name="consent" />
+              <label for="consent">I consent to my details being stored to respond to my enquiry.</label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" id="submitBtn">Send enquiry</button>
+            <p class="form-note">We aim to respond within 1–2 business days.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer" aria-label="Site footer">
+    <div class="container footer-inner">
+
+      <!-- Brand -->
+      <div class="footer-brand">
+        <a href="#" class="logo logo-white" aria-label="Inclusive Support Services home">
+          <div class="logo-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40" width="36" height="36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <polygon points="20,4 36,32 4,32" fill="#fff"/>
+              <polygon points="20,12 30,28 10,28" fill="#2a7a4f" opacity="0.5"/>
+            </svg>
+          </div>
+          <div class="logo-text">
+            <span class="logo-line1">Inclusive</span>
+            <span class="logo-line2">Support Services</span>
+          </div>
+        </a>
+        <p class="footer-tagline">Compassionate, professional disability support.</p>
+        <div class="social-links" aria-label="Social media links">
+          <a href="#" aria-label="Facebook" class="social-btn">f</a>
+          <a href="#" aria-label="Instagram" class="social-btn">in</a>
+          <a href="#" aria-label="LinkedIn" class="social-btn">Li</a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <nav class="footer-nav" aria-label="Quick links">
+        <h4>Quick links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Service areas -->
+      <div class="footer-areas">
+        <h4>Service areas</h4>
+        <p>We support participants across the Greater Metro region.</p>
+        <a href="#" class="btn btn-outline-white btn-sm">View our service map</a>
+      </div>
+
+      <!-- Contact -->
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <ul>
+          <li><span aria-hidden="true">📞</span> <a href="tel:1800123456">1800 123 456</a></li>
+          <li><span aria-hidden="true">✉</span> <a href="mailto:hello@inclusivesupport.au">hello@inclusivesupport.au</a></li>
+          <li><span aria-hidden="true">🕐</span> Mon–Fri, 8:30am – 5:00pm</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2026 Inclusive Support Services. All rights reserved.</p>
+        <nav aria-label="Legal links">
+          <a href="#">Accessibility</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Sitemap</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
